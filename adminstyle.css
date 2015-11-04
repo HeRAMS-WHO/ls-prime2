@@ -1889,3 +1889,91 @@ div.footer div
 {
 	display: none;
 }
+
+/* Data consistency & redundancy  check */
+
+.messagebox.data-integrity .hint {
+	line-height: 1em;
+}
+
+.messagebox.data-integrity .hint.warning {
+    color: #EE0000;
+}
+
+.messagebox.data-integrity.consistency {
+	padding-bottom: 1.1em;
+}
+
+.messagebox.data-integrity.consistency input[type="submit"] {
+
+	margin: 0.8em 0 0 0;
+}
+
+.data-consistency-list {
+	margin: 0.4em 0.8em 0 2.8em;
+}
+
+.data-redundancy-list {
+	margin-right: 0.8em;
+}
+
+.data-redundancy-list > li {
+	padding-top: 0.4em;
+}
+
+.data-redundancy-list ul {
+	margin: 0 0 0.8em 1.1em;
+}
+
+.data-redundancy-list ul li {
+	display: table-row;
+}
+
+.data-redundancy-list ul input,
+.data-redundancy-list ul label {
+	display: table-cell;
+}
+
+.data-redundancy-list input[type="checkbox"] {
+	margin-top: 0.15em;
+}
+
+.data-redundancy-list ul label {
+	padding-left: 0.4em;
+}
+
+
+/* Marcel Minke. new styles Nov. 2015 */
+.wrapper .ui-state-default, .wrapper .ui-widget-content .ui-state-default, .wrapper .ui-widget-header .ui-state-default
+ {
+    border: 1px solid #eee;
+	background: #eee url(images/ui-bg_highlight-soft_75_daf5a7_1x100.png) 50% 50% repeat-x;
+}
+
+.wrapper .ui-state-active, .wrapper .ui-widget-content .ui-state-active, .wrapper .ui-widget-header .ui-state-active
+ {
+    border: 1px solid #eee;
+	background: #fafafa url(images/ui-bg_highlight-soft_75_daf5a7_1x100.png) 50% 50% repeat-x;
+}
+
+.wrapper .ui-state-hover, .wrapper .ui-widget-content .ui-state-hover, .wrapper .ui-widget-header .ui-state-hover
+ {
+    border: 1px solid #eee;
+	background: #D2D1D1 url(images/ui-bg_highlight-soft_75_daf5a7_1x100.png) 50% 50% repeat-x;
+}
+
+
+#logicfiletable tr.LEMsubq td
+{
+	background-color: #fafafa;
+}
+
+#logicfiletable tr.LEMquestion td
+{
+	background-color: #eee;
+}
+
+.menubar .sf-menu li:hover, .menubar .sf-menu li.sfHover,
+.menubar .sf-menu a:focus, .menubar .sf-menu a:hover, .menubar .sf-menu a:active {
+	background:		#eee;
+}
