@@ -449,7 +449,7 @@ tr.even, .evenrow
     background-color: #fff;
 }
 tr.odd,.oddrow,.answertable tr.highlight {
-    background-color: #eeeeee;
+    background-color: #fafafa;
 }
 
 tr.editedrow{
