@@ -1019,7 +1019,7 @@ table.statisticstable, table.statisticssummary {
 div.messagebox {
     width: 550px;
     margin:10px auto;
-    background-color: #eeeeee;
+    background-color: #fafafa;
     text-align: center;
     padding:10px;
 }
